@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 
 
-
 @interface Constant : NSObject
 
 extern NSString *issNowURL;

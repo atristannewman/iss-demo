@@ -16,10 +16,6 @@
 @implementation NetworkService
 
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
 - (void)getlocation:(void(^)(NSDictionary *result, NSError *error))callback {
     
     NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:issNowURL]];
